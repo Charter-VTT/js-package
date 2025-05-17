@@ -7,13 +7,7 @@
   <a href="https://github.com/Charter-VTT/js-package/blob/main/LICENSE">
     <img src="https://img.shields.io/github/license/Charter-VTT/js-package" alt="License">
   </a>
-  <a href="https://github.com/Charter-VTT/js-package/actions/workflows/ci.yml">
-    <img src="https://github.com/Charter-VTT/js-package/actions/workflows/ci.yml/badge.svg" alt="Build Status">
-  </a>
   <img src="https://img.shields.io/badge/code%20style-biome-44cc11" alt="Code Style: Biome">
-  <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome">
-  <img src="https://img.shields.io/github/last-commit/Charter-VTT/js-package" alt="Last Commit">
-  <img src="https://img.shields.io/codecov/c/github/Charter-VTT/js-package" alt="Coverage">
 </p>
 
 # Charter VTT JS Package Template
