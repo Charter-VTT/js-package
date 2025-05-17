@@ -1,13 +1,18 @@
 {
-  "name": "template",
+  "name": "@charter/template",
   "type": "module",
+  "license": "MIT",
+  "version": "0.0.0",
   "devDependencies": {
     "@biomejs/biome": "1.9.4",
     "@commitlint/cli": "latest",
     "@commitlint/config-conventional": "latest",
     "@commitlint/prompt-cli": "latest",
     "@commitlint/types": "latest",
-    "@types/bun": "latest"
+    "@rslib/core": "^0.7.0",
+    "@types/bun": "latest",
+    "lefthook": "^1.11.13",
+    "typedoc": "^0.28.4"
   },
   "peerDependencies": {
     "typescript": "^5"
@@ -17,20 +22,13 @@
     "build": "rslib build",
     "dev": "rslib build --watch",
     "format": "biome format --write",
-    "lint": "biome lint --write"
-  },
-  "dependencies": {
-    "@rslib/core": "^0.7.0",
-    "lefthook": "^1.11.13"
+    "lint": "biome lint --write",
+    "docs:api": "typedoc --json docs/api.json src/index.ts"
   },
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
       "import": "./dist/index.js"
-    },
-    "./native": {
-      "types": "./dist/index.native.d.ts",
-      "import": "./dist/index.native.js"
     }
   },
   "module": "./dist/index.js",

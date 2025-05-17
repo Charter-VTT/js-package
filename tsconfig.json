@@ -22,5 +22,6 @@
     "noUnusedParameters": false,
     "noPropertyAccessFromIndexSignature": false,
     "forceConsistentCasingInFileNames": true
-  }
+  },
+  "include": ["src/**/*.ts"]
 }
