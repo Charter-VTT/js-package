@@ -1,5 +1,5 @@
 {
-  "name": "@charter/template",
+  "name": "@charter-vtt/template",
   "type": "module",
   "license": "MIT",
   "version": "0.0.0",
@@ -37,8 +37,5 @@
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "files": ["dist"],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Charter-VTT/js-package.git"
-  }
+  "repository": "https://github.com/Charter-VTT/js-package"
 }
